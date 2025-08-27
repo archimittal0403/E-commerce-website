@@ -1,0 +1,51 @@
+.photo{
+  width:4%;
+  height:4%;
+    margin-left:1%;
+    object-fit:contain; 
+    
+}
+.card-img-top{
+    width:100%;
+    height:200px;
+   object-fit:contain; 
+}
+.admin{
+  
+  width:100px;
+
+  object-fit:contain;
+}
+ .button{
+
+  font-size: 1.3rem;
+  margin-left:7.3rem;
+
+}
+/* .footer{
+  position:absolute;
+  bottom: 0;
+} */
+.cart_image{
+  width:90px;
+  height:90px;
+  object-fit: contain;
+}
+ body{
+overflow-x:hidden;
+} 
+.product-image{
+  width:100px;
+}
+.edit_product{
+  width:50%;
+}
+.product-image2{
+  width:200px;
+  height: 80px;
+  
+ 
+}
+
+
+
