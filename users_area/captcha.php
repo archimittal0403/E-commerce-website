@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+// substr is used to return the paet of the sring
 $captcha_code=substr(md5(rand(10000,99999)),0,5);
 $_SESSION['CODE']=$captcha_code;
 $img=imagecreatetruecolor(80,40);
