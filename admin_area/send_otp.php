@@ -4,6 +4,7 @@ include('../includes/connect.php');
 include('email.php');
  $admin_email=$_POST['admin_email'];
  $admin_password=$_POST['admin_password'];
+
  $select_query="Select * from `admin_table` where admin_email='$admin_email'";
        $result=mysqli_query($con,$select_query);
        if($row_count=mysqli_num_rows($result)>0){
