@@ -1,47 +1,5 @@
 
 <?php
-// session_start();
-// include('../includes/connect.php');
-//   include('email.php');
-// $select_query="Select * from `admin_table` where admin_id=1";
-//  $result=mysqli_query($con,$select_query);
-// $row_fetch=mysqli_fetch_assoc($result);
-//    $admin_password=$row_fetch['admin_password'];
-
-// if(isset($_GET['admin_email'])){
-//    $admin_email=$_GET['admin_email'];
- //$admin_password=$_GET['admin_password'];
- //$admin_id=$_GET['admin_id'];
- //$select_query="Select * from `admin_table` where admin_id='$admin_id'";
-       //$result=mysqli_query($con,$select_query);
-       //if($row_count=mysqli_num_rows($result)>0){
-              //$result=mysqli_query($con,$select_query);
-              // $admin_password=$row_data['admin_password'];
-                 //$_SESSION['admin_email']=$admin_email;
-                //  send_otp($admin_email,"PHP OTP LOGIN",$admin_password);  
-    // $admin_password=$_POST['admin_password'];
-    //  $admin_id=$_POST['admin_id'];
-    //    $select_query="Select * from `admin_table` where admin_id='$admin_id'";
-    //     $result=mysqli_query($con,$select_query);
-    //      $row_data=mysqli_fetch_assoc($result);
-    //      $admin_password=$row_data['admin_password'];
-    // $admin_email=$_POST['admin_email'];
-
-
-    //  $to=$admin_email;
-    //  $from="archi22154121@akgec.ac.in";
-    //  $fromName="archi";
-    //  $subject="test";
-    //  $message="your password is".$admin_password;
-    //  $header='From:'.$fromName.'<'.$from.'>';
-    //  if($mail($to,$subject,$message,$header)){
-    //     echo "successfully";
-    //  }
-    //    }
-
-    
- 
-//}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,13 +43,6 @@
 
 <div class="form-outline mb-4">
 <input type="submit" class="bg-success  py-2 px-3 border-0 text-light" name="get_password" value="Get Password">
-
-
-   
-
-
- 
-
 
 </form>
 

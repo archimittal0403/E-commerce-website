@@ -1,5 +1,10 @@
 <!-- connect teh con variable -->
 <?php
+echo "ROOT WORKING";
+die();
+?>
+
+<?php
 include('includes/connect.php');
 include('functions/common_function.php');
 session_start();
